@@ -29,6 +29,7 @@ The project contained in this repository is a 4-channel prototype board produced
 
 ## Key features
 
+- A PCB which amplifies the signals and filters them through an analog acquisition pipeline.
 - A realtime data acquisition software that can records, save, perform machine learning and neuroscience experiments.
 
 ## How it works
