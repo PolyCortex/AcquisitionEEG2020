@@ -51,7 +51,10 @@ All the raw data coming from the board can then be saved in a csv file for subse
 
 ## Project Structure
 
-- The `software/` folder contains everything that is linked to software. The computer software for digital signal processing and realtime visualization is under `software/gui/`. Check it out for more information about it.
+- The `cad/` folder contains files used to make the PCBs. The prototype board is under `cad/prototype-board/`. Two supply prototypes are included under `cad/supply-analog/` and `cad/supply-digital/`.
+- The `components/` folder contains the datasheets for important components.
+- The `simulations/` folder contains ltspice simulations for the elements of the analog processing pipeline.
+- The `software/` folder contains everything that is linked to software. The computer software for digital signal processing and realtime visualization is under `software/gui/`. Check it out for more information about it. The microcontroller software for sampling the analog signals and to stream them to the computer is under  `software/teensy-code/`.
 
 ## Learn more
 
