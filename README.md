@@ -43,6 +43,7 @@ The full processing pipeline for EEG includes and instrumentation amplifier, whi
 
 ### Data Transmission
 
+After having been processed, the data is digitized by a microcontroller's Analog to Digital Converter (ADC) and sent to a computer.
 Data from the board is received on the computer via one of its USB serial port. 
 
 ### Real-time visualization
