@@ -2,4 +2,6 @@
 
 # AcquisitionEEG2020
 
-See the wiki for technical info on the project!
+See the
+[wiki](https://github.com/PolyCortex/AcquisitionEEG2020/wiki)
+for technical info on the project!
