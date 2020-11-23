@@ -2,4 +2,4 @@
 
 # AcquisitionEEG2020
 
-See the wiki for technical info in the project!
+See the wiki for technical info on the project!
