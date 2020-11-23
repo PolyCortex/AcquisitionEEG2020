@@ -2,9 +2,16 @@
 
 ![Acquisition Software in action](https://raw.githubusercontent.com/wiki/PolyCortex/FixedChallenge-a19-h20/img/acquisition_software.jpg)
 
-This software is a new iteration of the software that was used for last year's Acquisition project.
+This software is a new iteration of the software that was used for last year's Acquisition project. The major changes introduced by this new version are bug fixes, compatibility with our new acquisition board, changes to the UI, as well as some performance optimizations.
 
 ## Key features
+
+- Connect itself to our custom Acquisition board, OpenBCI Cyton board, Muse headband and to a synthetic data stream;
+- Multiple realtime signal processing visualizations such as time series, fourier transform, spectrogram, power band, etc;
+- Records data and save it to a csv file format;
+- Automatic Machine learning classification feature using a custom neural net;
+- Tools make your ERP experiences easier.
+- Dark mode! 🌙
 
 ## Getting started
 
@@ -37,7 +44,7 @@ Install the required dependencies.
 
 ### Configuration for PCB communication
 
-In order to communicate with the PCB, you will need to specify the serial port that will handle the communication. To do so, go to `generate_signal/from_pcb.py` and change
+In order to communicate with the PCB, you will need to specify the serial port that will handle the communication. To do so, go to `generate_signal/from_pcb.py` and change the constant value `BAUDRATE` for the baudrate used on the MCU and `SERIAL_PORT` to the port used on your machine.
 
 ### Run
 
