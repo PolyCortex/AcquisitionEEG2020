@@ -23,7 +23,7 @@
 
 ---
 
-The project contained in this repository is a 4-channel prototype board produced in the development of a PCB to acquire EEG signals. It contains an instrumentation amplifier, a notch filter and an anti aliasing filter. It is designed to be sampled either in a lab with the help of an oscilloscope or with a computer through a Teensy 3.2 microcontroller development board.
+The project contained in this repository is a 4-channel prototype board produced in the development of a PCB to acquire EEG signals. It contains an instrumentation amplifier, a notch filter and an anti aliasing filter. It is designed to be sampled either in a lab with the help of an oscilloscope or with a computer through a Teensy 3.2 microcontroller development board. As well, a signal visualization software can analyze the signal coming from this board.
 
 **Disclaimer:** This prototype board does not work to sample EEG signals and was never intended as such. It was meant to be a platform used to test designs of filtering and amplification circuits, which we would have integrated into a true production PCB. However, our development cycle was slowed down due to the pandemic and we had to plan the release of the production version of the board for April 2021 instead. Even though we did not finish the project, we still wanted to show our progress and so we submit this prototype for the NeuroTechX 2020 Fixed Challenge.
 
@@ -39,13 +39,19 @@ The project contained in this repository is a 4-channel prototype board produced
 
 ### Data Transmission
 
+Data from the board is received on the computer via one of its USB serial port. 
+
 ### Real-time visualization
+
+The realtime visualization software can read the flow of data coming from the serial port and plot the signal on every channel in realtime. It can also show the data in the frequency domain using spectral, spectrogram and power band reprensentations.
 
 ### Data recording
 
+All the raw data coming from the board can then be saved in a csv file for subsequent use.
+
 ## Project Structure
 
-## Getting started
+- The `software/` folder contains everything that is linked to software. The computer software for digital signal processing and realtime visualization is under `software/gui/`. Check it out for more information about it.
 
 ## Learn more
 
