@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name polycortexlib_footprints)(type KiCad)(uri ${KIPRJMOD}/libraries/polycortexlib_footprints.pretty)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri ${KIPRJMOD}/libraries/digikey-kicad-library-master/digikey-footprints.pretty)(options "")(descr ""))
+)

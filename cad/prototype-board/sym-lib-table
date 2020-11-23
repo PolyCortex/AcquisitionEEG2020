@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name polycortexlib)(type Legacy)(uri "C:/Users/Sam/OneDrive - polymtl.ca/Documents/polycortex/2020/v1/carte_v1/libraries/polycortexlib.lib")(options "")(descr ""))
+  (lib (name dk_Battery-Holders-Clips-Contacts)(type Legacy)(uri ${KIPRJMOD}/libraries/digikey-kicad-library-master/digikey-symbols/dk_Battery-Holders-Clips-Contacts.lib)(options "")(descr ""))
+)

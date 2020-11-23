@@ -1,0 +1,250 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_01x05
+#
+DEF Connector_Generic_Conn_01x05 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Generic_Conn_01x05" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_POT_TRIM_US
+#
+DEF Device_R_POT_TRIM_US RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "Device_R_POT_TRIM_US" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 2 0 1 0 60 30 60 -30 N
+P 2 0 1 0 100 0 60 0 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Battery-Holders-Clips-Contacts_BC9VPC
+#
+DEF dk_Battery-Holders-Clips-Contacts_BC9VPC BAT 0 40 Y Y 1 F N
+F0 "BAT" 0 200 60 H V C CNN
+F1 "dk_Battery-Holders-Clips-Contacts_BC9VPC" 0 -200 60 H V C CNN
+F2 "digikey-footprints:Battery_Holder_9V_BC9VPC-ND" 200 200 60 H I L CNN
+F3 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" 200 300 60 H I L CNN
+F4 "BC9VPC-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BC9VPC" 200 500 60 H I L CNN "MPN"
+F6 "Battery Products" 200 600 60 H I L CNN "Category"
+F7 "Battery Holders, Clips, Contacts" 200 700 60 H I L CNN "Family"
+F8 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/mpd-memory-protection-devices/BC9VPC/BC9VPC-ND/257747" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "BATTERY HOLDER 9V PC PIN" 200 1000 60 H I L CNN "Description"
+F11 "MPD (Memory Protection Devices)" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 1 1 0 -110 120 -110 80 N
+P 2 1 1 0 -90 100 -130 100 N
+P 2 1 1 0 -75 0 -100 0 N
+P 2 1 1 0 -75 100 -75 -100 N
+P 2 1 1 0 -25 50 -25 -50 N
+P 2 1 1 0 25 100 25 -100 N
+P 2 1 1 0 75 50 75 -50 N
+P 2 1 1 0 100 0 75 0 N
+X ~ NEG 300 0 200 L 50 50 1 1 W
+X ~ POS -300 0 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# polycortexlib_LT3032-5
+#
+DEF polycortexlib_LT3032-5 PS 0 40 Y Y 1 F N
+F0 "PS" -300 550 50 H V C CNN
+F1 "polycortexlib_LT3032-5" 150 -550 50 H V C CNN
+F2 "" 100 0 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+DRAW
+S -350 500 350 -500 0 1 0 N
+X OUTP 1 450 450 100 L 50 50 1 1 O
+X ~SHDNN 10 -450 0 100 R 50 50 1 1 I
+X BYPN 11 450 -100 100 L 50 50 1 1 I
+X ~SHDNP 12 -450 100 100 R 50 50 1 1 I
+X NC 13 50 600 100 D 50 50 1 1 N
+X INP 14 -450 450 100 R 50 50 1 1 I
+X NC 2 -150 600 100 D 50 50 1 1 N
+X BYPP 3 450 100 100 L 50 50 1 1 I
+X GND 4 450 0 100 L 50 50 1 1 P
+X GND 5 -100 -600 100 U 50 50 1 1 P
+X INN 6 -450 -350 100 R 50 50 1 1 I
+X OUTN 7 450 -450 100 L 50 50 1 1 O
+X NC 8 -50 600 100 D 50 50 1 1 N
+X INN 9 -450 -450 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# polycortexlib_OPA2202
+#
+DEF polycortexlib_OPA2202 U 0 40 Y Y 3 L N
+F0 "U" 100 -200 50 H V C CNN
+F1 "polycortexlib_OPA2202" 250 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 0 50 0 1 0 A Normal 0 C C
+T 0 0 0 50 0 2 0 B Normal 0 C C
+P 4 1 1 12 -200 -200 -200 200 200 0 -200 -200 f
+P 4 2 1 12 -200 -200 -200 200 200 0 -200 -200 f
+X ~ 1 300 0 100 L 50 50 1 1 O
+X - 2 -300 100 100 R 50 50 1 1 I
+X + 3 -300 -100 100 R 50 50 1 1 I
+X + 5 -300 -100 100 R 50 50 2 1 I
+X - 6 -300 100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 O
+X V- 4 0 -300 100 U 50 50 3 1 I
+X V+ 8 0 300 100 D 50 50 3 1 I
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+9V
+#
+DEF power_+9V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+9V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +9V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_-5V
+#
+DEF power_-5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 100 50 H I C CNN
+F1 "power_-5V" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 30 50 0 100 -30 50 0 50 F
+X -5V 1 0 0 0 U 50 50 0 0 W N
+ENDDRAW
+ENDDEF
+#
+# power_-9V
+#
+DEF power_-9V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -125 50 H I C CNN
+F1 "power_-9V" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 0 0 100 N
+P 4 0 1 0 30 50 -30 50 0 100 30 50 F
+X -9V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+#End Library

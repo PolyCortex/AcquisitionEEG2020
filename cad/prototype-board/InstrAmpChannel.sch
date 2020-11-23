@@ -1,0 +1,346 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5F4275A7
+P 5100 4200
+AR Path="/5F4275A7" Ref="R?"  Part="1" 
+AR Path="/5F419071/5F4275A7" Ref="R203"  Part="1" 
+AR Path="/5F48C5C6/5F4275A7" Ref="R303"  Part="1" 
+AR Path="/5F49EA6B/5F4275A7" Ref="R403"  Part="1" 
+AR Path="/5F4B0DCB/5F4275A7" Ref="R503"  Part="1" 
+F 0 "R303" V 5000 4200 50  0000 C CNN
+F 1 "1M" V 5100 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 4200 50  0001 C CNN
+F 3 "~" H 5100 4200 50  0001 C CNN
+	1    5100 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 4100 3900 4100
+Wire Wire Line
+	4500 4200 4850 4200
+Wire Wire Line
+	5250 4200 5400 4200
+Connection ~ 5400 4200
+Wire Wire Line
+	5400 4200 5500 4200
+Connection ~ 4850 4200
+Wire Wire Line
+	4850 4200 4950 4200
+$Comp
+L Device:R R?
+U 1 1 5F42762D
+P 3600 3850
+AR Path="/5F42762D" Ref="R?"  Part="1" 
+AR Path="/5F419071/5F42762D" Ref="R201"  Part="1" 
+AR Path="/5F48C5C6/5F42762D" Ref="R301"  Part="1" 
+AR Path="/5F49EA6B/5F42762D" Ref="R401"  Part="1" 
+AR Path="/5F4B0DCB/5F42762D" Ref="R501"  Part="1" 
+F 0 "R301" V 3500 3850 50  0000 C CNN
+F 1 "1k" V 3600 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3530 3850 50  0001 C CNN
+F 3 "~" H 3600 3850 50  0001 C CNN
+	1    3600 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F427633
+P 4450 3850
+AR Path="/5F427633" Ref="R?"  Part="1" 
+AR Path="/5F419071/5F427633" Ref="R202"  Part="1" 
+AR Path="/5F48C5C6/5F427633" Ref="R302"  Part="1" 
+AR Path="/5F49EA6B/5F427633" Ref="R402"  Part="1" 
+AR Path="/5F4B0DCB/5F427633" Ref="R502"  Part="1" 
+F 0 "R302" V 4350 3850 50  0000 C CNN
+F 1 "1M" V 4450 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 3850 50  0001 C CNN
+F 3 "~" H 4450 3850 50  0001 C CNN
+	1    4450 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F427639
+P 6050 3850
+AR Path="/5F427639" Ref="R?"  Part="1" 
+AR Path="/5F419071/5F427639" Ref="R204"  Part="1" 
+AR Path="/5F48C5C6/5F427639" Ref="R304"  Part="1" 
+AR Path="/5F49EA6B/5F427639" Ref="R404"  Part="1" 
+AR Path="/5F4B0DCB/5F427639" Ref="R504"  Part="1" 
+F 0 "R304" V 5950 3850 50  0000 C CNN
+F 1 "1M" V 6050 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5980 3850 50  0001 C CNN
+F 3 "~" H 6050 3850 50  0001 C CNN
+	1    6050 3850
+	0    1    1    0   
+$EndComp
+Text HLabel 3350 3850 0    50   Input ~ 0
+STG1COMMON
+Text HLabel 3450 4300 0    50   Input ~ 0
+IN
+Text HLabel 5450 4400 0    50   Input ~ 0
+STG2COMMON
+Wire Wire Line
+	6550 4300 6700 4300
+$Comp
+L polycortexlib:OPA2202 U201
+U 1 1 5F42759B
+P 4200 4200
+AR Path="/5F419071/5F42759B" Ref="U201"  Part="1" 
+AR Path="/5F48C5C6/5F42759B" Ref="U301"  Part="1" 
+AR Path="/5F49EA6B/5F42759B" Ref="U401"  Part="1" 
+AR Path="/5F4B0DCB/5F42759B" Ref="U501"  Part="1" 
+F 0 "U301" H 4400 4050 50  0000 L CNN
+F 1 "OPA2202" H 4400 4150 50  0000 L CNN
+F 2 "polycortexlib_footprints:VSSOP-8_3.0x3.0mm_P0.65mm_manual_soldering" H 4200 4200 50  0001 C CNN
+F 3 "" H 4200 4200 50  0001 C CNN
+	1    4200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C204
+U 1 1 5F47C76F
+P 2150 5050
+AR Path="/5F419071/5F47C76F" Ref="C204"  Part="1" 
+AR Path="/5F48C5C6/5F47C76F" Ref="C304"  Part="1" 
+AR Path="/5F49EA6B/5F47C76F" Ref="C404"  Part="1" 
+AR Path="/5F4B0DCB/5F47C76F" Ref="C504"  Part="1" 
+AR Path="/5F47C76F" Ref="C?"  Part="1" 
+F 0 "C304" V 2000 5050 50  0000 C CNN
+F 1 "0.1uF" V 2300 5050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2188 4900 50  0001 C CNN
+F 3 "~" H 2150 5050 50  0001 C CNN
+	1    2150 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C203
+U 1 1 5F47C775
+P 2150 4600
+AR Path="/5F419071/5F47C775" Ref="C203"  Part="1" 
+AR Path="/5F48C5C6/5F47C775" Ref="C303"  Part="1" 
+AR Path="/5F49EA6B/5F47C775" Ref="C403"  Part="1" 
+AR Path="/5F4B0DCB/5F47C775" Ref="C503"  Part="1" 
+AR Path="/5F47C775" Ref="C?"  Part="1" 
+F 0 "C303" V 2000 4600 50  0000 C CNN
+F 1 "0.1uF" V 2300 4600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2188 4450 50  0001 C CNN
+F 3 "~" H 2150 4600 50  0001 C CNN
+	1    2150 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0204
+U 1 1 5F47C77B
+P 2350 5100
+AR Path="/5F419071/5F47C77B" Ref="#PWR0204"  Part="1" 
+AR Path="/5F48C5C6/5F47C77B" Ref="#PWR0304"  Part="1" 
+AR Path="/5F49EA6B/5F47C77B" Ref="#PWR0404"  Part="1" 
+AR Path="/5F4B0DCB/5F47C77B" Ref="#PWR0504"  Part="1" 
+AR Path="/5F47C77B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0504" H 2350 4850 50  0001 C CNN
+F 1 "GND" H 2355 4927 50  0000 C CNN
+F 2 "" H 2350 5100 50  0001 C CNN
+F 3 "" H 2350 5100 50  0001 C CNN
+	1    2350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR?
+U 1 1 5F47C781
+P 1950 5100
+AR Path="/5F47C781" Ref="#PWR?"  Part="1" 
+AR Path="/5F419071/5F47C781" Ref="#PWR0202"  Part="1" 
+AR Path="/5F48C5C6/5F47C781" Ref="#PWR0302"  Part="1" 
+AR Path="/5F49EA6B/5F47C781" Ref="#PWR0402"  Part="1" 
+AR Path="/5F4B0DCB/5F47C781" Ref="#PWR0502"  Part="1" 
+F 0 "#PWR0502" H 1950 5200 50  0001 C CNN
+F 1 "-5V" V 1965 5228 50  0000 L CNN
+F 2 "" H 1950 5100 50  0001 C CNN
+F 3 "" H 1950 5100 50  0001 C CNN
+	1    1950 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C202
+U 1 1 5F47C787
+P 2150 3700
+AR Path="/5F419071/5F47C787" Ref="C202"  Part="1" 
+AR Path="/5F48C5C6/5F47C787" Ref="C302"  Part="1" 
+AR Path="/5F49EA6B/5F47C787" Ref="C402"  Part="1" 
+AR Path="/5F4B0DCB/5F47C787" Ref="C502"  Part="1" 
+AR Path="/5F47C787" Ref="C?"  Part="1" 
+F 0 "C302" V 2000 3700 50  0000 C CNN
+F 1 "0.1uF" V 2300 3700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2188 3550 50  0001 C CNN
+F 3 "~" H 2150 3700 50  0001 C CNN
+	1    2150 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C201
+U 1 1 5F47C78D
+P 2150 3250
+AR Path="/5F419071/5F47C78D" Ref="C201"  Part="1" 
+AR Path="/5F48C5C6/5F47C78D" Ref="C301"  Part="1" 
+AR Path="/5F49EA6B/5F47C78D" Ref="C401"  Part="1" 
+AR Path="/5F4B0DCB/5F47C78D" Ref="C501"  Part="1" 
+AR Path="/5F47C78D" Ref="C?"  Part="1" 
+F 0 "C301" V 2000 3250 50  0000 C CNN
+F 1 "0.1uF" V 2300 3250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2188 3100 50  0001 C CNN
+F 3 "~" H 2150 3250 50  0001 C CNN
+	1    2150 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F47C793
+P 1950 3200
+AR Path="/5F47C793" Ref="#PWR?"  Part="1" 
+AR Path="/5F419071/5F47C793" Ref="#PWR0201"  Part="1" 
+AR Path="/5F48C5C6/5F47C793" Ref="#PWR0301"  Part="1" 
+AR Path="/5F49EA6B/5F47C793" Ref="#PWR0401"  Part="1" 
+AR Path="/5F4B0DCB/5F47C793" Ref="#PWR0501"  Part="1" 
+F 0 "#PWR0501" H 1950 3050 50  0001 C CNN
+F 1 "+5V" V 1965 3328 50  0000 L CNN
+F 2 "" H 1950 3200 50  0001 C CNN
+F 3 "" H 1950 3200 50  0001 C CNN
+	1    1950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0203
+U 1 1 5F47C799
+P 2350 3750
+AR Path="/5F419071/5F47C799" Ref="#PWR0203"  Part="1" 
+AR Path="/5F48C5C6/5F47C799" Ref="#PWR0303"  Part="1" 
+AR Path="/5F49EA6B/5F47C799" Ref="#PWR0403"  Part="1" 
+AR Path="/5F4B0DCB/5F47C799" Ref="#PWR0503"  Part="1" 
+AR Path="/5F47C799" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0503" H 2350 3500 50  0001 C CNN
+F 1 "GND" H 2355 3577 50  0000 C CNN
+F 2 "" H 2350 3750 50  0001 C CNN
+F 3 "" H 2350 3750 50  0001 C CNN
+	1    2350 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4450 1950 4600
+Wire Wire Line
+	1950 5050 2000 5050
+Connection ~ 1950 5050
+Wire Wire Line
+	1950 5050 1950 5100
+Wire Wire Line
+	1950 4600 2000 4600
+Connection ~ 1950 4600
+Wire Wire Line
+	1950 4600 1950 5050
+Wire Wire Line
+	2300 4600 2350 4600
+Wire Wire Line
+	2350 4600 2350 5050
+Wire Wire Line
+	2300 5050 2350 5050
+Connection ~ 2350 5050
+Wire Wire Line
+	2350 5050 2350 5100
+Wire Wire Line
+	1950 3850 1950 3700
+Wire Wire Line
+	1950 3250 2000 3250
+Connection ~ 1950 3250
+Wire Wire Line
+	1950 3250 1950 3200
+Wire Wire Line
+	1950 3700 2000 3700
+Connection ~ 1950 3700
+Wire Wire Line
+	1950 3700 1950 3250
+Wire Wire Line
+	2300 3700 2350 3700
+Wire Wire Line
+	2350 3700 2350 3750
+Wire Wire Line
+	2300 3250 2350 3250
+Wire Wire Line
+	2350 3250 2350 3700
+Connection ~ 2350 3700
+$Comp
+L polycortexlib:OPA2202 U?
+U 3 1 5F47C7B7
+P 1950 4150
+AR Path="/5F47C7B7" Ref="U?"  Part="3" 
+AR Path="/5F419071/5F47C7B7" Ref="U201"  Part="3" 
+AR Path="/5F48C5C6/5F47C7B7" Ref="U301"  Part="3" 
+AR Path="/5F49EA6B/5F47C7B7" Ref="U401"  Part="3" 
+AR Path="/5F4B0DCB/5F47C7B7" Ref="U501"  Part="3" 
+F 0 "U301" H 2008 4196 50  0000 L CNN
+F 1 "OPA2202" H 2008 4105 50  0000 L CNN
+F 2 "polycortexlib_footprints:VSSOP-8_3.0x3.0mm_P0.65mm_manual_soldering" H 1950 4150 50  0001 C CNN
+F 3 "" H 1950 4150 50  0001 C CNN
+	3    1950 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3850 5400 3850
+Wire Wire Line
+	5400 3850 5400 4200
+Wire Wire Line
+	6200 3850 6550 3850
+Wire Wire Line
+	6550 3850 6550 4300
+Wire Wire Line
+	3350 3850 3450 3850
+Wire Wire Line
+	3750 3850 3850 3850
+Connection ~ 3850 3850
+Wire Wire Line
+	3850 3850 3850 4100
+Wire Wire Line
+	3850 3850 4300 3850
+Wire Wire Line
+	4600 3850 4850 3850
+Wire Wire Line
+	4850 3850 4850 4200
+Wire Wire Line
+	5450 4400 5500 4400
+$Comp
+L polycortexlib:OPA2202 U201
+U 2 1 5F4275A1
+P 5800 4300
+AR Path="/5F419071/5F4275A1" Ref="U201"  Part="2" 
+AR Path="/5F48C5C6/5F4275A1" Ref="U301"  Part="2" 
+AR Path="/5F49EA6B/5F4275A1" Ref="U401"  Part="2" 
+AR Path="/5F4B0DCB/5F4275A1" Ref="U501"  Part="2" 
+F 0 "U301" H 6000 4150 50  0000 L CNN
+F 1 "OPA2202" H 6000 4250 50  0000 L CNN
+F 2 "polycortexlib_footprints:VSSOP-8_3.0x3.0mm_P0.65mm_manual_soldering" H 5800 4300 50  0001 C CNN
+F 3 "" H 5800 4300 50  0001 C CNN
+	2    5800 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4300 6550 4300
+Connection ~ 6550 4300
+Wire Wire Line
+	3450 4300 3900 4300
+Text HLabel 6700 4300 2    50   Output ~ 0
+OUT
+$EndSCHEMATC
