@@ -35,7 +35,11 @@ The project contained in this repository is a 4-channel prototype board produced
 
 ### Acquisition
 
+The board includes four channels and so five electrodes should be placed on the patient's head: one per channel and a fifth reference electrode. The reference electrode is clipped at the patient's ear and voltages from the channel electrodes are measured against it.
+
 ### Signal processing
+
+The full processing pipeline for EEG includes and instrumentation amplifier, which the measurement of extremely small EEG voltages. The pipeline also includes a high pass filter, a notch filter and a low pass filter which each eliminate different types of noise from the signal. 
 
 ### Data Transmission
 
